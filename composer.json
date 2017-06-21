@@ -1,0 +1,23 @@
+{
+  "name": "wirelab/product_labels",
+  "description": "Magento 2 Sale and New label",
+  "type": "magento2-module",
+  "version": "dev-master",
+  "license": [
+    "OSL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Len van Essen",
+      "email": "len@vanessen.io"
+    }
+  ],
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Wirelab/ProductLabels"
+      ]
+    ]
+  }
+}
