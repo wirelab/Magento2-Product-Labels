@@ -45,7 +45,9 @@ class Labels extends \Magento\Framework\Url\Helper\Data
     }
 
     /**
-     * Checks if the product is new
+     * Checks if the product is on sale
+     * Wrapper for getSpecialPrice. Just here because we don't want double labels, and the
+     * sale label has priority for our cause see line 32
      * @param ModelProduct $product
      * @return bool
      */
